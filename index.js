@@ -38,7 +38,7 @@ app.use(cors({
 dotenv.config({ path: "./config/.env" });
 
 // Your route definitions
-app.use('/contactms', Router);
+app.use('/contactmsyt', Router) 
 
 app.listen(process.env.PORT, () => {
     console.log("App is Running");

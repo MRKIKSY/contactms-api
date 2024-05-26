@@ -7,7 +7,7 @@ import { Router } from './routes/routes.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["https://contactms-client-gamma.vercel.app"],
+    origin: ["https://contactms-client-c0ylvy3zi-mrkiksys-projects.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }))
